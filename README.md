@@ -1,2 +1,2 @@
 # website
-Documentation website for taggy
+documentation website for taggy
