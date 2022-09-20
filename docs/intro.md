@@ -11,16 +11,16 @@ Welcome to **taggy**! 🐓
 
 Tagging content in web-based editorial systems, i.e. assigning content to a selection of topics
 
-- is mostly still done manually,
-- therefore tedious and error-prone,
+- is mostly still done manually
+- therefore tedious and error-prone
 
 especially when it comes to large amounts of data.
 
 Proprietary systems are often expensive and questionable in terms of data protection
 dart taggy is here to give you an
 
-- open,
-- easy-to-start-with,
+- open
+- easy-to-start-with
 - easy-to-integrate and
 - quite powerful frontend tool
 
@@ -29,6 +29,8 @@ to fit your tagging needs.
 ## Status
 
 Currently under heavy development 🏗️
+
+You can watch the development status on [Github](https://github.com/open-taggy).
 
 
 ## How-to

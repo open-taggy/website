@@ -7,8 +7,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "taggy",
-  tagline: "...helps you tag your content",
-  url: "https://your-docusaurus-test-site.com",
+  tagline: "helps you tag your content",
+  url: "https://open-taggy.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -121,7 +121,7 @@ const config = {
         //   },
         // ],
         copyright:
-          `Icons: <a href="https://thenounproject.com/browse/icons/term/open/">Open</a> by Ilham Fitrotul Hayat | <a href="https://thenounproject.com/browse/icons/term/scooter/"> Scooter</a> by Guilhem | <a href="https://thenounproject.com/browse/icons/term/plug-connector/">Plug connector</a> by rizal anggara putra | All from <a href="https://thenounproject.com/" target="_blank" title="The Noun Project">Noun Project</a>` +
+          `Icons: <a href="https://thenounproject.com/browse/icons/term/open/">Open</a> by Ilham Fitrotul Hayat | <a href="https://thenounproject.com/browse/icons/term/scooter/"> Scooter</a> by Guilhem | <a href="https://thenounproject.com/browse/icons/term/plug-connector/">Plug connector</a> by rizal anggara putra | <a href="https://thenounproject.com/browse/icons/term/open/"> play </a> by MOCROIS | All from <a href="https://thenounproject.com/" target="_blank" title="The Noun Project">Noun Project</a>` +
           `<br /> <br />` +
           `Copyright © ${new Date().getFullYear()} by taggy 🐓 | Supported by <a href="https://media-tech-lab.de">Media Tech Lab</a> by Media Lab Bayern.`,
       },
