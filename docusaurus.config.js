@@ -8,8 +8,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "taggy",
   tagline: "helps you tag your content",
-  url: "https://open-taggy.com",
-  baseUrl: "/",
+  url: "https://open-taggy.github.io",
+  baseUrl: "website/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
@@ -17,7 +17,9 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "open-taggy", // Usually your GitHub org/user name.
-  projectName: "taggy", // Usually your repo name.
+  projectName: "website", // Usually your repo name.
+  trailingSlash: false,
+  deploymentBranch: "main",
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
