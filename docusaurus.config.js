@@ -9,7 +9,7 @@ const config = {
   title: "taggy",
   tagline: "helps you tag your content",
   url: "https://open-taggy.github.io",
-  baseUrl: "website/",
+  baseUrl: "/website/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
@@ -19,7 +19,7 @@ const config = {
   organizationName: "open-taggy", // Usually your GitHub org/user name.
   projectName: "website", // Usually your repo name.
   trailingSlash: false,
-  // deploymentBranch: "public",
+  deploymentBranch: "public",
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
