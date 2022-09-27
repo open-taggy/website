@@ -34,6 +34,7 @@ function HomepageHeader() {
           still="/img/preview.jpg"
           className={styles.gifPlayer}
         /> */}
+        <img src="img/taggy-example.gif" className={styles.gifPlayer}></img>
 
         <div className={styles.buttons}>
           <Link
