@@ -16,19 +16,20 @@ function HomepageHeader() {
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <img src="img/logo.png"></img>
+        <div className={styles.logo}></div>
         <p>
           Tagging content in web-based editorial systems, i.e. assigning content
           to a selection of topics
-          <p>
-            is mostly still done manually and therefore tedious and error-prone
-            especially when it comes to large amounts of data.
-          </p>
-          <p>
-            taggy is here to give you an open-source frontend module to help you
-            with your tagging needs.
-          </p>
         </p>
+        <p>
+          is mostly still done manually and therefore tedious and error-prone
+          especially when it comes to large amounts of data.
+        </p>
+        <p>
+          taggy is here to give you an open-source frontend module to help you
+          with your tagging needs.
+        </p>
+
         {/* <GifPlayer
           gif="/img/taggy-example.gif"
           still="/img/preview.jpg"

@@ -25,9 +25,9 @@
 .poweredByBanner {
   padding: 4rem 0;
   text-align: center;
-   position: relative;
-   overflow: hidden;
-   background-color: #E8E8E8;
+  position: relative;
+  overflow: hidden;
+  background-color: #e8e8e8;
 }
 
 .poweredByImg {
@@ -43,4 +43,13 @@
 .gifPlayer {
   width: 350px;
   padding-bottom: 35px;
+}
+
+.logo {
+  background: url("../../static/img/logo.png") no-repeat;
+  /* display: inline-block; */
+}
+
+.logo:hover {
+  background: url("../../static/img/mtl_taggy.jpg") no-repeat;
 }
