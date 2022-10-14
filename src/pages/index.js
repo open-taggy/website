@@ -16,7 +16,7 @@ function HomepageHeader() {
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <img src="img/logo.png"></img>
+        {/* <img src="img/logo.png"></img> */}
         <p>
           Tagging content in web-based editorial systems, i.e. assigning content
           to a selection of topics
@@ -34,7 +34,7 @@ function HomepageHeader() {
           still="/img/preview.jpg"
           className={styles.gifPlayer}
         /> */}
-        <img src="img/taggy-example.gif" className={styles.gifPlayer}></img>
+        <img src="img/taggy_screencast.gif" className={styles.gifPlayer}></img>
 
         <div className={styles.buttons}>
           <Link
